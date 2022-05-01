@@ -4,7 +4,7 @@
 .mega-menu {
   margin: 0 auto;
   padding: 0;
-  display: block;
+  display: none;
   float: none;
   position: relative;
   z-index: 999;
@@ -12,7 +12,7 @@
   width: 100%;*/
   font-size: 16px;
   font-family: 'Roboto', sans-serif;
-  min-height: 102px;
+  min-height: 67px;
   clear: both;
   box-sizing: border-box;
 }

@@ -168,7 +168,7 @@ Design and Developed by: potenzaglobalsolutions.com
   .why-choose.page-section-pt { padding-bottom: 50px; }
   /*home-3*/
   .topbar-dark .mega-menu .menu-mobile-collapse-trigger:before, .topbar-dark .mega-menu .menu-mobile-collapse-trigger:after, .topbar-dark .mega-menu .menu-mobile-collapse-trigger span { background: #db2d2e; }
-  .mega-menu { min-height: 62px; }
+  .mega-menu { height: 67px; display: block;background: #F3FCFF;}
   #header.topbar-dark .mega-menu .menu-logo { padding: 20px 0px; }
   #header.fancy .mega-menu .menu-logo { padding: 20px 0px; }
   #header.light .mega-menu .menu-logo { padding: 20px 0px; }
@@ -337,13 +337,15 @@ Design and Developed by: potenzaglobalsolutions.com
   
   
   @media( max-width:767px) {
-  
+  .bg-1h{
+    background-position: -220px 0px;
+  }
     .container {
       max-width: 100%;
    }
    .welcome-4 .feature-box-3{
       margin-top: 20px;
-   }
+   width: 100%;}
    .dealer-box {
       margin-bottom: 40px;
   }
@@ -362,7 +364,10 @@ Design and Developed by: potenzaglobalsolutions.com
   .footer hr { margin-top: 40px; border-color: rgba(255, 255, 255, 0.11);}
   .content-box-2.car-bg-1, .content-box-2.car-bg-2 { margin-bottom: 30px; }
   .content-box-2.car-bg-1, .content-box-2.car-bg-2, .content-box-2.car-bg-3 { background-size: cover; background-position: center; }
-  .feature-box-2.box-hover { margin-bottom: 30px; }
+  .feature-box-2.box-hover { margin-bottom: 30px; display: flex;flex-direction: row;align-items: center;}
+  .feature-box-2.box-hover .icon{
+    margin-right:20px;
+  }
   .car-item-2 .car-list ul li { margin-bottom: 3px; }
   .testimonial-3 .owl-carousel .owl-item img { width: 100%; }
   .news-letter-main .news-letter-form  { padding: 0 0px; margin-top: 20px; }
@@ -589,12 +594,18 @@ Design and Developed by: potenzaglobalsolutions.com
   
   
   @media( max-width:767px) {
+    .bg-1a {
+    background-position: -100px 100px;
+}
     .inner-intro {
       background-attachment: inherit;
-    }
+    overflow: hidden;}
     .search-logo{
      padding:15px;
     }
+    .bg-1{
+      
+    background-position: 0px -326px;background-color: #0748ae;}
   }
   
   @media( max-width:479px) {
