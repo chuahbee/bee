@@ -16,6 +16,7 @@
     }
     .col-blue{
         color: #0150C8!important;
+        font-weight: 700;
     }
     .col-white{
         color: #fff!important;
@@ -78,6 +79,17 @@
         border-radius: 10px;
         text-align: center;
         color: #fff;
+        font-weight: 700;
+        text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.3);
+    }    
+    .my-mt-1{
+        margin-top: 1rem;
+    }
+    .my-mt-2{
+        margin-top: 2rem;
+    }
+    .my-blue-btn p{
+        margin-bottom: 0px;
     }
     .my-header{
         display: flex;
@@ -167,15 +179,28 @@
         width: 100%;
         position: relative;
     }
+    #pg11 .section-title p{
+        font-size: 18px;
+
+    }
     .info02 img{
         width: fit-content;
     }
     .info02 p{
         color: #0d0d0d;
-    font-weight: normal;width: 90%;margin: auto;}
+        font-weight: normal;
+        width: 90%;
+        /* margin: auto; */
+    }
+    .info03 p{
+        color: #E0E0E0;
+        font-weight: normal;
+        width: 90%;
+    }
     .info02 span{
         color: #0d0d0d;
-    font-weight: bolder;}
+        font-weight: bolder;
+    }
     .info6{
         width: 80%;
     }
@@ -281,8 +306,9 @@
     }
     .my-box9{
         position: relative;
-        height: 300px;
-    width: 100%;display: flex;flex-direction: column;align-items: center;}
+        height: 200px;
+        width: 100%;display: flex;flex-direction: column;align-items: center;
+    }
     .ft-logo{
         position: relative;
     }
@@ -290,8 +316,33 @@
         position: absolute;
         bottom: -80px;
     }
-.my-box9 img{
-    width:fit-content;
+.fs-20{
+    font-size: 20px;
+}
+.tittle-h5{
+    text-align: center;
+    margin-top: 5rem;
+}
+.bold-text b{
+    font-weight: 800;
+    color: #fff;
+}
+.section-title.footer{
+    font-size: 18px;
+    font-style: normal;
+    line-height: 24px;
+}
+.section-title.footer a{
+    text-decoration: underline;
+}
+.my-box9 .ft-logo{
+    width: 30%;
+}
+.my-box9 .ft-img{
+    width: 60%;
+}
+.my-mb-1{
+    margin-bottom:1rem;
 }
 .line-box{
     padding: 20px 0;
@@ -316,13 +367,11 @@ position: absolute;bottom: 0;}
     }
     @media only screen and (max-width: 768px) {
         .my-box9 {
-    height: 200px;
-}
-        .my-box9 img {
-    width: 100%;
-}
+            height: 140px;
+        }
         .line-box{
             height:300px;
+            padding: 33px 0;
         }
         .info02 p {
         width: 90%;
@@ -350,30 +399,32 @@ position: absolute;bottom: 0;}
         width: 100%;
         margin-bottom: 0px;
     }
-        .m-box01, .m-box02, .m-box03 {
+    .m-box01, .m-box02, .m-box03 {
         position: relative;
         width: 100%;
         height: fit-content;
         filter: drop-shadow(0px 0px 11px rgba(0, 0, 0, 0.25));
-    margin-bottom: 30px;}
+        margin-bottom: 30px;}
         .my-header2 {
         display: flex;
         flex-direction: column;
         align-items: center;
-        
         margin: 60px 0;
-    justify-content: flex-start;}
-        .my-header img {
+        justify-content: flex-start;}
+    .my-header img {
         width: 100%;
     }
-        .img760 {
+    .img760 {
         width: 100%!important;
     }
-        .errow-icon,.arrow-blue {
+    .errow-icon,.arrow-blue {
         display:none;}
-        .info02 img {
+
+    .info02 img {
         width: 100%;
-    margin-bottom: 30px;}
+        margin-bottom: 30px;
+        padding: 0px 19px;
+    }
       .lbg01 {
         background: url(../images/left-carimg.jpg);
         background-size: cover;
@@ -392,6 +443,6 @@ position: absolute;bottom: 0;}
         /* position: relative; */
     margin-left: -100px;}
     .mb-add60{
-        padding-bottom: 0px;
+        padding-bottom: 150px;
     }
     }

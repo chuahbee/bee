@@ -147,7 +147,7 @@ Design and Developed by: potenzaglobalsolutions.com
   .search-top.search-top-open .search-box { top: 52px !important;  }
   #header.defualt { position: relative; /* background: #323232; */ }
   #header.light .mega-menu .menu-mobile-collapse-trigger:before,  #header.light .mega-menu .menu-mobile-collapse-trigger:after,  #header.light .mega-menu .menu-mobile-collapse-trigger span { background: #db2d2e; }
-  .welcome-block p { padding: 0px; }
+  .welcome-block p { padding: 0px; margin-top: 0px; }
   .feature-box { margin-bottom: 30px; }
   .welcome-block .halp-call { margin-top: 30px; }
   .car-item .car-list li { padding: 0 4px; }
@@ -168,7 +168,8 @@ Design and Developed by: potenzaglobalsolutions.com
   .why-choose.page-section-pt { padding-bottom: 50px; }
   /*home-3*/
   .topbar-dark .mega-menu .menu-mobile-collapse-trigger:before, .topbar-dark .mega-menu .menu-mobile-collapse-trigger:after, .topbar-dark .mega-menu .menu-mobile-collapse-trigger span { background: #db2d2e; }
-  .mega-menu { height: 67px; display: block;background: #F3FCFF;}
+  .mega-menu { height: 67px; display: block;background: #f0f5f8;}
+  .bg2.mega-menu {height: 67px; display: block; background: #f4fcff;}
   #header.topbar-dark .mega-menu .menu-logo { padding: 20px 0px; }
   #header.fancy .mega-menu .menu-logo { padding: 20px 0px; }
   #header.light .mega-menu .menu-logo { padding: 20px 0px; }
@@ -338,7 +339,7 @@ Design and Developed by: potenzaglobalsolutions.com
   
   @media( max-width:767px) {
   .bg-1h{
-    background-position: -550px 0px;
+    background-position: -1300px 0px;
   }
     .container {
       max-width: 100%;
@@ -351,7 +352,7 @@ Design and Developed by: potenzaglobalsolutions.com
   }
   
   h2 { font-size: 32px; }
-  .section-title { margin-bottom: 10px; }
+  .section-title { margin-bottom: 40px; }
   .section-title h2 { font-size: 30px; }
   .custom-block-1 h2 { font-size: 60px; }
   .footer .social { margin-bottom: 40px; }
@@ -460,6 +461,30 @@ Design and Developed by: potenzaglobalsolutions.com
   }
   
   @media( max-width:600px) {
+  .mobile-align-mid{
+      text-align: center;
+  }
+  .info03 p {
+    width: 100%;
+  }
+  #pg9 h4{
+    font-size:18px;
+    margin-bottom: 0px;
+  }
+  .bg-1g {
+    padding: 19px 0;
+}
+  .my-row-center {
+      margin: auto;
+      text-align: center;
+      width: 100%;
+  }
+  .my-header2 h3 {
+      font-family: 'Permanent Marker', cursive;
+      font-size: 20px;
+      color: #fff;
+      letter-spacing: .05rem;
+  }
   .custom-block-1 h2 { line-height: 60px; font-size: 50px; }
   .recent-vehicle .isotope.column-4 .grid-item { width: 100% }
   .recent-vehicle .isotope.column-5 .grid-item { width: 100%; }
