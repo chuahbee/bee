@@ -10,7 +10,7 @@
 	zoom: 1;
  *display: inline;/*IE7 life-saver */
 	margin-top: -18px;
-	padding: 3px 10px;
+	padding: 3px 0px;
 	font-size: 0;
 	background:#000;
 	filter: Alpha(Opacity=50);/*IE7 fix*/
@@ -56,7 +56,7 @@
 }
 .slick-prev:before {
 	font:normal normal normal 14px/1 FontAwesome;
-	content: '\f053';
+	/* content: '\f053'; */
 	font-size:18px;
 }
 [dir='rtl'] .slick-prev:before {
@@ -72,7 +72,7 @@
 }
 .slick-next:before {
 	font:normal normal normal 14px/1 FontAwesome;
-	content: '\f054';
+	/* content: '\f054'; */
 	font-size:18px;
 }
 [dir='rtl'] .slick-next:before {
