@@ -225,7 +225,7 @@ select { border: 1px solid #232323; color: #777; cursor: pointer; display: block
 /*************************
       Background
 ***********************/
-.bg-1 { background: url(../images/bg/header-bg.jpg); background-clip: initial; background-color: rgba(0, 0, 0, 0); background-origin: initial; background-position: 0px 100px; background-repeat: no-repeat; background-size: cover !important; position: relative;}
+.bg-1 { background: url(../images/bg/header-bg.jpg); background-clip: initial; background-color: rgba(0, 0, 0, 0); background-origin: initial; background-position: 0px 100px; background-repeat: no-repeat; background-size: cover !important; position: relative;overflow: hidden;}
 .bg-1a { background: url(../images/bg02.jpg); background-clip: initial; background-color: rgba(0, 0, 0, 0); background-origin: initial; background-position: 0px 100px; background-repeat: no-repeat; background-size: cover !important; position: relative;}
 .bg-1b { background: url(../images/bg03.jpg); background-clip: initial; background-color: rgba(0, 0, 0, 0); background-origin: initial; background-position: 0px 0px; background-repeat: no-repeat; background-size: cover !important; position: relative;overflow: hidden;}
 .bg-1c { background: url(../images/bg04.jpg); background-clip: initial; background-color: rgba(0, 0, 0, 0); background-origin: initial; background-position: 0px 0px; background-repeat: no-repeat; background-size: cover !important; position: relative;}
@@ -537,7 +537,7 @@ background-size: cover;box-shadow: 0px 8px 18px rgba(70, 166, 251, 0.5);
 /*feature-box-3 */
 .feature-box-3 .icon { width: 50px; height: 50px; float: left; margin-right: 20px; text-align: center; border-radius: 50%; border: 1px solid #ffffff; transition: all 0.5s ease-in-out; -webkit-transition: all 0.5s ease-in-out; -moz-transition: all 0.5s ease-in-out; -ms-transition: all 0.5s ease-in-out; -o-transition: all 0.5s ease-in-out; }
 .feature-box-3.grey-border .icon { border: 1px solid #f6f6f6;  }
-.feature-box-3 .icon i { font-size: 16px; background: #ffffff; display: block; border-radius: 50%; margin: 4px 4px 4px 4px; width: 40px; height: 40px; font-style: normal;line-height: 40px; transition: all 0.5s ease-in-out; -webkit-transition: all 0.5s ease-in-out; -moz-transition: all 0.5s ease-in-out; -ms-transition: all 0.5s ease-in-out; -o-transition: all 0.5s ease-in-out; box-shadow: 0px 0px 17px rgba(0, 0, 0, 0.2);}
+.feature-box-3 .icon i { color: #0150C8; font-weight: 600;font-size: 16px; background: #ffffff; display: block; border-radius: 50%; margin: 4px 4px 4px 4px; width: 40px; height: 40px; font-style: normal;line-height: 40px; transition: all 0.5s ease-in-out; -webkit-transition: all 0.5s ease-in-out; -moz-transition: all 0.5s ease-in-out; -ms-transition: all 0.5s ease-in-out; -o-transition: all 0.5s ease-in-out; box-shadow: 0px 0px 17px rgba(0, 0, 0, 0.2);}
 .feature-box-3 .content { display: table-cell; margin-top: 10px; vertical-align: top; }
 .feature-box-3 .content h5 { margin-bottom: 0px; margin-top: 10px; }
 .feature-box-3 .content h6 { margin-bottom: 0px; margin-top: 10px; }
