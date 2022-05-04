@@ -1,6 +1,15 @@
 .WidgetTitle__Header-sc-ruy1gu-2.gduAeC{
     display: none;
     }
+    .col-mg-l20{
+        margin-left: 20%!important;
+    }
+    .mb-view{
+        display: block!important;
+    }
+    .wb-view{
+        display: none!important;
+    }
     .col-font-bold{
         font-weight: bold;
     }
@@ -350,6 +359,18 @@
 .my-ft-car{
     
 position: absolute;bottom: 0;}
+.down-a{
+            display:none;
+        }
+        .i-icon-box{
+            display: flex;
+        flex-direction: row;align-items: center;justify-content: center;}
+        .i-icon{
+            
+        width: 60px;height: 60px;margin: 10px;}
+.i-icon-box p{
+    line-height:normal;margin-bottom: 0;
+}
   
     @media only screen and (max-width: 1500px) {
         .my-header img {
@@ -366,6 +387,30 @@ position: absolute;bottom: 0;}
     }
     }
     @media only screen and (max-width: 768px) {
+        .mb-view{
+            display: none!important;
+        }
+        .wb-view{
+            display: block!important;
+        }
+        .mb-img{
+            width: 150%;
+        margin-left: -24%;}
+        .down-a{
+            margin-top:10px;
+            display:block;
+        }
+        .my-arrow-line {
+    display: flex;
+    align-items: center;
+    height: 100%;
+flex-direction: column;}
+        .my-box9 .ft-logo {
+    width: 80%;
+}
+        .my-box9 .ft-img {
+    width: 130%;
+}
         .my-box9 {
             height: 140px;
         }
@@ -401,7 +446,7 @@ position: absolute;bottom: 0;}
     }
     .m-box01, .m-box02, .m-box03 {
         position: relative;
-        width: 100%;
+        width: 48%;
         height: fit-content;
         filter: drop-shadow(0px 0px 11px rgba(0, 0, 0, 0.25));
         margin-bottom: 30px;}

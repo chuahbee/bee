@@ -125,12 +125,13 @@ var POTENZA = {};
             $navdots = ($this.data('nav-dots')) ? $this.data('nav-dots') : false,
             $navarrow = ($this.data('nav-arrow')) ? $this.data('nav-arrow') : false,
             $autoplay = ($this.attr('data-autoplay')) ? $this.data('autoplay') : true,
-            $space = ($this.attr('data-space')) ? $this.data('space') : 30;
+            $space = ($this.attr('data-space')) ? $this.data('space') : 10;
             $(this).owlCarousel({
                 loop: $loop,
                 items: $items,
+                center: true,
                 responsive: {
-                  0:{items: $this.data('xx-items') ? $this.data('xx-items') : 1},
+                  0:{items: $this.data('xx-items') ? $this.data('xx-items') : 1.2},
                   480:{items: $this.data('xs-items') ? $this.data('xs-items') : 2},
                   768:{items: $this.data('sm-items') ? $this.data('sm-items') : 3},
                   980:{items: $this.data('md-items') ? $this.data('md-items') : 4},

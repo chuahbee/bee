@@ -6,7 +6,7 @@
 /*
  *  Owl Carousel - Core
  */
-.owl-carousel {
+ .owl-carousel {
   display: none;
   width: 100%;
   -webkit-tap-highlight-color: transparent;
@@ -45,7 +45,7 @@
     float: left;
     -webkit-backface-visibility: hidden;
     -webkit-tap-highlight-color: transparent;
-    -webkit-touch-callout: none; }
+    -webkit-touch-callout: none; /* width: 8%!important; *//* margin: auto; */}
   .owl-carousel .owl-item img {
     display: block;
     width: 100%; }
@@ -84,7 +84,7 @@
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
-    user-select: none; }
+    user-select: none; /* width: 80%; */}
   .owl-carousel.owl-grab {
     cursor: move;
     cursor: grab; }
