@@ -371,6 +371,9 @@ position: absolute;bottom: 0;}
 .i-icon-box p{
     line-height:normal;margin-bottom: 0;
 }
+.my-ft-car{
+    margin: none;
+}
   
     @media only screen and (max-width: 1500px) {
         .my-header img {
@@ -387,6 +390,10 @@ position: absolute;bottom: 0;}
     }
     }
     @media only screen and (max-width: 768px) {
+        .my-ft-car{
+            /* position: relative; */
+            /* margin-top: 20px; */
+        }
         .mb-view{
             display: none!important;
         }
@@ -412,10 +419,10 @@ flex-direction: column;}
     width: 130%;
 }
         .my-box9 {
-            height: 140px;
+            height: 102px;
         }
         .line-box{
-            height:300px;
+            height: 340px;
             padding: 33px 0;
         }
         .info02 p {
